@@ -24,4 +24,11 @@ class SignupModel extends ChangeNotifier {
     signupemailController = value;
     notifyListeners();
   }
+
+  bool obscureText = true;
+
+  void toggleObscureText() {
+    obscureText = !obscureText;
+    notifyListeners();
+  }
 }

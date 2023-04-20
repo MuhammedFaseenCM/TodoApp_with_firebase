@@ -17,7 +17,7 @@ import 'package:todo/view/signuppage/signup_screen.dart';
 class LoginSection extends StatelessWidget {
   const LoginSection({super.key});
   static final loginFormKey = GlobalKey<FormState>();
-  static final SignupModel loginModel = SignupModel();
+  static final SignupModel signupModel = SignupModel();
   @override
   Widget build(BuildContext context) {
     return Expanded(
@@ -39,10 +39,10 @@ class LoginSection extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                EmailField(emailController: loginModel.emailController),
+                EmailField(emailController: signupModel.emailController),
                 kheight20,
                 PasswordField(
-                  passwordController: loginModel.passwordController,
+                  passwordController: signupModel.passwordController,
                 ),
                 kheight20,
                 kheight20,
@@ -54,8 +54,8 @@ class LoginSection extends StatelessWidget {
                     if (!isValid) return;
                     signIn(
                         context: context,
-                        email: loginModel.emailController,
-                        password: loginModel.passwordController);
+                        email: signupModel.emailController,
+                        password: signupModel.passwordController);
                   },
                 ),
                 kheight20,

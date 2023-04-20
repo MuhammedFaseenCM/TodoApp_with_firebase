@@ -10,9 +10,6 @@ import 'package:todo/view/loginpage/widgets/fields.dart/password_field.dart';
 
 import 'package:todo/view/loginpage/sections/header_section.dart';
 
-
-
-
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});
   static final SignupModel signupmodel = SignupModel();
@@ -107,16 +104,20 @@ class SignUpScreen extends StatelessWidget {
                                       signupmodel.emailController.text.trim(),
                                   password: signupmodel.passwordController.text
                                       .trim());
-                              await userSignupDetailsToFireStore(
-                                  email:
-                                      signupmodel.emailController.text.trim(),
-                                  name: signupmodel.fullnameController.text
-                                      .trim(),
-                                  password: signupmodel.passwordController.text
-                                      .trim(),
-                                  phoneNumber:
-                                      signupmodel.numberController.text.trim(),
-                                  context: context);
+                              // await userSignupDetailsToFireStore(
+                              //     email:
+                              //         signupmodel.emailController.text.trim(),
+                              //     name: signupmodel.fullnameController.text
+                              //         .trim(),
+                              //     password: signupmodel.passwordController.text
+                              //         .trim(),
+                              //     phoneNumber:
+                              //         signupmodel.numberController.text.trim(),
+                              //     context: context);
+                              // signupmodel.fullnameController.clear();
+                              // signupmodel.emailController.clear();
+                              // signupmodel.passwordController.clear();
+                              // signupmodel.confirmpasswordController.clear();
                             },
                           ),
                         ],

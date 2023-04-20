@@ -5,6 +5,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:todo/model/note_model/note_model.dart';
 import 'package:todo/view/addscreen/screen_add_note.dart';
 import 'package:todo/view/core/appbar_widget.dart';
+import 'package:todo/view/core/const_colors.dart';
 import 'package:todo/view/homepage/widget/note_item.dart';
 
 class MainScreen extends StatelessWidget {
@@ -87,6 +88,7 @@ class MainScreen extends StatelessWidget {
         },
         label: const Text('New'),
         icon: const Icon(Icons.add),
+        backgroundColor: kOrange900,
       ),
     );
   }

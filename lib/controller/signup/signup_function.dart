@@ -21,9 +21,8 @@ Future<void> signUp(
     );
   } on FirebaseAuthException catch (e) {
     Utils.showSnackBar(
-      context,
-      
       e.message,
+      context,
       color: Colors.red[900],
       textColor: kwhiteColor,
     );

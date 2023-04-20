@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:todo/model/note_model/note_model.dart';
 import 'package:todo/view/addscreen/screen_add_note.dart';
+import 'package:todo/view/core/const_colors.dart';
 import 'package:todo/view/core/string_consts.dart';
 
 class TodoItem extends StatelessWidget {
@@ -47,8 +48,6 @@ class TodoItem extends StatelessWidget {
                     Checkbox(
                       value: noteModel.iscompleted,
                       onChanged: (value) {
-                     
-
                         final docUser = FirebaseFirestore.instance
                             .collection(FirebaseAuth.instance.currentUser!.email
                                 .toString())
@@ -56,6 +55,7 @@ class TodoItem extends StatelessWidget {
 
                         docUser.update({'isCompleted': value});
                       },
+                      activeColor: kOrange900,
                     ),
                     IconButton(
                         onPressed: () {

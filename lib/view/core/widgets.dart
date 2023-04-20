@@ -40,7 +40,7 @@ class AppBarContainer extends StatelessWidget {
             offset: const Offset(0, 3), // changes the position of the shadow
           ),
         ],
-        color: korangeColor,
+        color: kOrange900,
         borderRadius: const BorderRadius.only(
           bottomLeft: Radius.circular(30.0),
           bottomRight: Radius.circular(30.0),
@@ -51,5 +51,3 @@ class AppBarContainer extends StatelessWidget {
     );
   }
 }
-
-
