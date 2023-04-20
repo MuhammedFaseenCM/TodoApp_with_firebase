@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "441615184935",
+    "project_id": "todo-4c0d4",
+    "storage_bucket": "todo-4c0d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441615184935:android:7832688d9e093f3b768a02",
+        "android_client_info": {
+          "package_name": "com.faseen.todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441615184935-vt54jcn4icpct1ue8g7nr9klnouf4vfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faseen.todo",
+            "certificate_hash": "4645937912cb5d66bfac562f3329b8f0c04603e5"
+          }
+        },
+        {
+          "client_id": "441615184935-690h3qor14ldfnqi92fi2of4ftken8l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnJshwtKFMVfxSNeLYhz5VXwLczZE95nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441615184935-690h3qor14ldfnqi92fi2of4ftken8l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
