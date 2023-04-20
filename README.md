@@ -1,11 +1,15 @@
 # CRUD Application with Firebase Backend
 
-A new Flutter project.
+This is a Flutter application that allows for login, CRUD operations on todo tasks, and uses Firebase as the backend to support the application.
 
-## Getting Started
+## Features
+Login using username and password
+Create, edit, delete and mark todo items as complete
+Simple backend using Firebase
+Sample credentials included in the repository
 
-This project is a starting point for a Flutter application.
-
+## Conclusion
+This is a basic example of how to create a CRUD application with a Firebase backend using Flutter. Feel free to modify and extend the application to suit your needs. If you have any questions or feedback, please let me know.
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
