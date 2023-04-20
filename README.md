@@ -1,4 +1,4 @@
-# todo
+# CRUD Application with Firebase Backend
 
 A new Flutter project.
 
